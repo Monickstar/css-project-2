@@ -1,12 +1,18 @@
+.main{
+color: aqua;
+background-color: rgb(191, 185, 197);
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 .Likes{
-    color: mediumorchid;
+    color: rgb(151, 54, 70);
     font-family: 'Courier New', Courier, monospace;
 }
 
 .Dislikes{
-    color: fuchsia;
+    color: rgb(65, 26, 65);
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: rgb(47, 82, 82);
+    background-color: rgb(22, 63, 63);
     font-size: 25px;
 }
 
@@ -21,6 +27,12 @@ em{
 
 /*inheritance*/
 
+#mains{
+color: beige;
+background-color: lightcoral;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 #My-likes{
     color: maroon;
     font-family: Arial, Helvetica, sans-serif;
@@ -29,7 +41,7 @@ em{
 #My-dislikes{
     color: brown;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: black;
+    background-color: rgb(173, 149, 149);
     font-size: 20px;
 }
 
